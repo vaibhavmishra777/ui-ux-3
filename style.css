@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+    height:100vh;
+    display: flex;
+    background-color: black;
+}
+.left{
+    width: 40%;
+    height: auto;
+    background-color: sandybrown;
+}
+.right{
+    width: 60%;
+    height: auto;
+    background-color: rgb(17, 17, 17);
+}
+.left h1{
+    font-size: 40px;
+    color: white;
+    text-align: start;
+    margin-top: 10PX;
+    margin-left: 20px;
+    font-style: italic;
+    
+}
+.p h1{
+    color: black;
+    margin-left: 20%;
+    margin-top: 20%;
+    font-size: 50px;
+    font-style: normal;
+}
+.ani h2{
+    color: white;
+    margin-left: 20%;
+    margin-top: 20px;
+    font-size: 30px;
+  
+}
+.ani hr{
+    width: 98px;
+    margin-left: 20%;
+    background-color: black;
+
+}
+.ani p{
+    color: black;
+    font-size: 20px;
+    margin-left: 20%;
+}
+.ani span{
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+}
+/* .ani button{
+    width: 150px;
+    height: 40px;
+    
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    margin-inline: 80px;
+    border-radius: 20px;
+
+   
+    
+} */
+#but{
+    /* margin-left: 20%; */
+ 
+    background-color: rgba(240, 248, 255, 0);
+    color: black;
+}
+
+.image{
+    width: 150px;
+    height:250px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+    
+  
+    margin-left: 28%;
+
+
+}
+#img1{
+ height: 350px;
+ margin-left: 150%;
+ position: absolute;
+ bottom: 1rem;
+}
+#img2{
+
+    height:350px;  
+    position: absolute;
+    bottom: -3rem;
+    /* right: 1px; */
+
+}
+.navbar{
+    width: 100%;
+
+}
+.navbar span{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.navbar span p{
+    color: white;
+
+}
+.h1{
+    width: 100%;
+    margin-top: 10%;
+
+}
+.h1 h1{
+    color: white;
+    font-size: 100px;
+}
+.h1 button{
+  width: 150px;
+  height: 40px;
+  margin-left: 30px;
+  margin-top: 20px;
+  font-size: 20px;
+  border-radius: 10px
+}
+.h1 p{
+    font-size: 25px;
+    color: white;
+    margin-left: 40px;
+}
+
+@media(max-width:1000px){
+
+    .main-container{
+        width: 100%;
+      
+
+    }
+    .left{
+        width: 40%;
+        height: 100vh;
+        background-color: sandybrown;
+    }
+    .right{
+        width: 60%;
+        height: 100%;
+        background-color: rgb(17, 17, 17);
+    }
+    img{
+        display: none;
+
+
+    }
+  .navbar{
+     display: none;
+  }
+  .left h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    /* text-align: start;
+    margin-top: 10PX;
+    margin-left: 20px; */
+    font-style: italic;
+    
+}
+.p h1{
+    color: black;
+    margin-left: 20%;
+    margin-top: 20%;
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+}
+.ani h2{
+    color: white;
+    margin-left: 20%;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+  
+}
+.ani hr{
+    width: 98px;
+    margin-left: 38%;
+    background-color: black;
+    text-align: center;
+
+
+}
+.ani p{
+    color: black;
+    font-size: 15px;
+    /* margin-left: 20%; */
+    text-align: center;
+    padding: 1rem;
+}
+.ani p br{
+    display: none;
+}
+.ani span{
+    width: 100%;
+    /* height: auto;
+    border: 1px solid red; */
+    text-align: center;
+}
+.h1{
+    width: 100%;
+    margin-top: 10%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+.h1 h1{
+    color: white;
+    font-size: 40px;
+    margin-top: 5rem;
+    text-align: center;
+}
+.h1 button{
+  width: 150px;
+  height: 40px;
+  margin-left: 140px;
+  margin-top: 20px;
+  font-size: 20px;
+  border-radius: 10px
+  
+}
+.h1 p{
+    font-size: 25px;
+    color: white;
+    margin-left: 40px;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+
+
+}
+@media(max-width:468px){
+
+
+    .main-container{
+        width: 100%;
+      
+
+    }
+    .left{
+        width: 40%;
+        height: 100vh;
+        background-color: sandybrown;
+    }
+    .right{
+        width: 60%;
+        height: 100%;
+        background-color: rgb(17, 17, 17);
+    }
+    img{
+        display: none;
+
+
+    }
+  .navbar{
+     display: none;
+  }
+  .left h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    /* text-align: start;
+    margin-top: 10PX;
+    margin-left: 20px; */
+    font-style: italic;
+    
+}
+.p h1{
+    color: black;
+    margin-left: 20%;
+    margin-top: 20%;
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+}
+.ani h2{
+    color: white;
+    margin-left: 20%;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+  
+}
+.ani hr{
+    width: 98px;
+    margin-left: 32%;
+    background-color: black;
+    text-align: center;
+
+
+}
+.ani p{
+    color: black;
+    font-size: 0.8rem;
+    /* margin-left: 20%; */
+    text-align: center;
+    padding: 1rem;
+}
+.ani p br{
+    display: none;
+}
+.ani span{
+    width: 100%;
+    /* height: auto;
+    border: 1px solid red; */
+    text-align: center;
+}
+.h1{
+    width: 100%;
+    margin-top: 10%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+}
+.h1 h1{
+    color: white;
+    font-size: 3rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+.h1 button{
+  width: 150px;
+  height: 40px;
+  margin-left: 4.5rem;
+  margin-top: 20px;
+  font-size: 20px;
+  border-radius: 10px
+  
+}
+.h1 p{
+    font-size: 20px;
+    color: white;
+    margin-left: 40px;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+
+
+
+}
